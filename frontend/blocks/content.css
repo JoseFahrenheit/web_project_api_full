@@ -1,0 +1,24 @@
+.content {
+  width: 880px;
+  height: auto;
+  flex: 1;
+}
+
+@media screen and (min-width: 544px) and (max-width: 1023px) {
+  .content {
+    width: 100%;
+    height: auto;
+    max-width: 768px;
+    margin-top: 42px;
+    margin-left: -40px;
+  }
+}
+
+@media screen and (max-width: 543px) {
+  .content {
+    width: 100%;
+    height: auto;
+    max-width: 282px;
+    margin-top: 42px;
+  }
+}

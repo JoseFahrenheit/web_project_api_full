@@ -1,0 +1,273 @@
+.element {
+  width: 282px;
+  height: 361px;
+  position: relative;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.element__image {
+  width: 282px;
+  height: 282px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.element__delete-container {
+  position: absolute;
+  top: 18px;
+  right: 15px;
+  z-index: 2;
+}
+
+.element__delete {
+  width: 18px;
+  height: 19.3px;
+  position: absolute;
+  top: 18px;
+  right: 15px;
+  background-image: url('../src/images/trash.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  z-index: 2;
+  display: block;
+}
+
+.element__delete:hover {
+  opacity: 60%;
+}
+
+.element__rectangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 282px;
+  height: 361px;
+  z-index: 0;
+}
+
+.element__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  position: relative;
+  z-index: 1;
+}
+
+.element__paragraph {
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.element__vector {
+  width: 22px;
+  height: 19px;
+  background-image: url('../src/images/element_Vector.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: all 0.3s ease;
+}
+
+.element__vector:hover {
+  opacity: 0.8;
+}
+
+.element__vector_is-active {
+  background-image: url('../src/images/Union.png');
+  opacity: 1 !important;
+  display: inline-block !important;
+  background-size: contain !important;
+}
+
+@media screen and (min-width: 544px) and (max-width: 1023px) {
+  .element {
+    width: 282px;
+    height: 361px;
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .element__image {
+    width: 282px;
+    height: 282px;
+    position: relative;
+    object-fit: cover;
+    z-index: 1;
+    cursor: pointer;
+  }
+
+  .element__delete {
+    width: 18px;
+    height: 19.3px;
+    position: absolute;
+    top: 18px;
+    right: 15px;
+    background-image: url('../src/images/trash.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    z-index: 2;
+  }
+
+  .element__delete:hover {
+    opacity: 60%;
+  }
+
+  .element__rectangle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 282px;
+    height: 361px;
+    z-index: 0;
+  }
+
+  .element__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .element__paragraph {
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .element__vector {
+    width: 21px;
+    height: 19px;
+    cursor: pointer;
+  }
+
+  .element__vector:hover {
+  opacity: 60%;
+  }
+
+  .element__vector_is-active {
+    transform: scale(1.1);
+  }
+}
+
+@media screen and (max-width: 543px) {
+  .element {
+    width: 100%;
+    max-width: 282px;
+    height: auto;
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .element__image {
+    width: 282px;
+    height: 282px;
+    position: relative;
+    object-fit: cover;
+    z-index: 1;
+    cursor: pointer;
+  }
+
+  .element__delete {
+    width: 18px;
+    height: 19.3px;
+    position: absolute;
+    top: 18px;
+    right: 15px;
+    background-image: url('../src/images/trash.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    z-index: 2;
+  }
+
+  .element__delete:hover {
+    opacity: 60%;
+  }
+
+  .element__rectangle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 282px;
+    height: 361px;
+    z-index: 0;
+  }
+
+  .element__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .element__paragraph {
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .element__vector {
+    width: 21px;
+    height: 19px;
+    cursor: pointer;
+  }
+
+  .element__vector:hover {
+  opacity: 60%;
+  }
+
+  .element__vector_is-active {
+    transform: scale(1.1);
+  }
+}
