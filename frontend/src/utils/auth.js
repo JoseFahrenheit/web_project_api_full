@@ -4,7 +4,6 @@ const AUTH_BASE_URL = import.meta.env.MODE === 'production' ? '' : 'http://local
 
 export const register = async (email, password, name) => {
   try {
-    console.log('Attempting registration to:', `${AUTH_BASE_URL}/signup`);
 
     const response = await fetch(`${AUTH_BASE_URL}/signup`, {
       method: 'POST',
@@ -13,8 +12,6 @@ export const register = async (email, password, name) => {
       },
       body: JSON.stringify({ email, password, name })
     });
-
-    console.log('Registration response status:', response.status);
 
     const contentType = response.headers.get('content-type');
     if (!contentType || !contentType.includes('application/json')) {
@@ -42,7 +39,6 @@ export const register = async (email, password, name) => {
 
 export const login = async (email, password) => {
   try {
-    console.log('Attempting login to:', `${AUTH_BASE_URL}/signin`);
 
     const response = await fetch(`${AUTH_BASE_URL}/signin`, {
       method: 'POST',
@@ -51,8 +47,6 @@ export const login = async (email, password) => {
       },
       body: JSON.stringify({ email, password })
     });
-
-    console.log('Login response status:', response.status);
 
     const contentType = response.headers.get('content-type');
     if (!contentType || !contentType.includes('application/json')) {
@@ -88,7 +82,6 @@ export const login = async (email, password) => {
 
 export const checkAuthToken = async (token) => {
   try {
-    console.log('Checking auth token for user');
 
     const response = await fetch(`${AUTH_BASE_URL}/users/me`, {
       method: 'GET',
@@ -97,8 +90,6 @@ export const checkAuthToken = async (token) => {
         'Authorization': `Bearer ${token}`
       }
     });
-
-    console.log('Check token response status:', response.status);
 
     const contentType = response.headers.get('content-type');
     if (!contentType || !contentType.includes('application/json')) {

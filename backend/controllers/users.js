@@ -97,10 +97,6 @@ const updateProfile = async (req, res, next) => {
 const updateAvatar = async (req, res, next) => {
   try {
     const { avatar } = req.body;
-    console.log('Received avatar update request:', {
-      userId: req.user._id,
-      avatarUrl: avatar
-    });
 
     const updatedUser = await User.findByIdAndUpdate(
       req.user._id,
@@ -116,10 +112,8 @@ const updateAvatar = async (req, res, next) => {
       throw error;
     });
 
-    console.log('Avatar update successfully:', updatedUser);
     res.json(updatedUser);
   } catch (error) {
-    console.error('ERROR in updateAvatar:', error.name, error.message);
     next(error);
   }
 };

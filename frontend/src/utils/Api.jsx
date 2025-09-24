@@ -116,14 +116,10 @@ if (token) {
 }
 
 export const setApiToken = (token) => {
-  console.log('Setting API token:', token);
-  console.log('API instance:', api);
   api.setAuthorizationToken(token);
 };
 
 export const removeApiToken = () => {
-  console.log('Removing API token');
-  console.log('API instance:', api);
   api.removeAuthorization();
 };
 

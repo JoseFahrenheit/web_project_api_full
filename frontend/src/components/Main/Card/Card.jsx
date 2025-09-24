@@ -5,32 +5,14 @@ export default function Card({ card, onCardClick, onCardLike, onCardDelete }) {
   const { currentUser } = useContext(CurrentUserContext);
 
   const isLiked = Boolean(card.likes?.some(user => user._id === currentUser?._id));
-  console.log('Estado like:', {
-    isLiked,
-    likes: card.likes,
-    currentUser: currentUser?._id
-  });
   const cardLikeButtonClassName = `element__vector ${isLiked ? 'element__vector_is-active' : ''}`;
-
-  console.log('Clase del botón:', cardLikeButtonClassName);
 
   const isOwner = (
     (card.owner?._id === currentUser?._id) ||
     (card.owner === currentUser?._id)
   );
 
-  console.log('Card debug:', {
-    cardOwner: card.owner,
-    currentUser: currentUser,
-    isOwnerCalculation: isOwner
-  });
-
   const handleLikeClick = () => {
-    console.log('Like clickeado', {
-      cardId: card._id,
-      currentUserId: currentUser?._id,
-      currentLikes: card.likes || []
-    });
     onCardLike(card);
   };
 

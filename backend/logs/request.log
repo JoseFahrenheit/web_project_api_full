@@ -44,3 +44,83 @@
 {"ip":"::1","level":"info","message":"Request received","method":"GET","timestamp":"2025-09-22T00:26:03.142Z","url":"/users/me","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"}
 {"level":"info","message":"Response sent","method":"GET","responseTime":"5ms","statusCode":200,"timestamp":"2025-09-22T00:26:03.145Z","url":"/"}
 {"level":"info","message":"Response sent","method":"GET","responseTime":"5ms","statusCode":200,"timestamp":"2025-09-22T00:26:03.148Z","url":"/me"}
+{"ip":"::1","level":"info","message":"Request received","method":"POST","timestamp":"2025-09-24T19:27:46.329Z","url":"/signin","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"}
+{"level":"info","message":"Response sent","method":"POST","responseTime":"111ms","statusCode":200,"timestamp":"2025-09-24T19:27:46.443Z","url":"/signin"}
+{"ip":"::1","level":"info","message":"Request received","method":"GET","timestamp":"2025-09-24T19:27:46.470Z","url":"/users/me","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"Request received","method":"GET","timestamp":"2025-09-24T19:27:46.477Z","url":"/cards","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"}
+{"level":"info","message":"Response sent","method":"GET","responseTime":"13ms","statusCode":200,"timestamp":"2025-09-24T19:27:46.483Z","url":"/me"}
+{"level":"info","message":"Response sent","method":"GET","responseTime":"10ms","statusCode":200,"timestamp":"2025-09-24T19:27:46.488Z","url":"/"}
+{"ip":"::1","level":"info","message":"Request received","method":"GET","timestamp":"2025-09-24T19:27:46.490Z","url":"/users/me","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"}
+{"level":"info","message":"Response sent","method":"GET","responseTime":"6ms","statusCode":200,"timestamp":"2025-09-24T19:27:46.496Z","url":"/me"}
+{"ip":"::1","level":"info","message":"Request received","method":"GET","timestamp":"2025-09-24T19:27:46.497Z","url":"/cards","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"}
+{"level":"info","message":"Response sent","method":"GET","responseTime":"4ms","statusCode":200,"timestamp":"2025-09-24T19:27:46.502Z","url":"/"}
+{"ip":"::1","level":"info","message":"Request received","method":"POST","timestamp":"2025-09-24T19:33:52.688Z","url":"/signin","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"}
+{"level":"info","message":"Response sent","method":"POST","responseTime":"102ms","statusCode":200,"timestamp":"2025-09-24T19:33:52.793Z","url":"/signin"}
+{"ip":"::1","level":"info","message":"Request received","method":"GET","timestamp":"2025-09-24T19:33:52.811Z","url":"/users/me","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"Request received","method":"GET","timestamp":"2025-09-24T19:33:52.815Z","url":"/cards","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"}
+{"level":"info","message":"Response sent","method":"GET","responseTime":"9ms","statusCode":200,"timestamp":"2025-09-24T19:33:52.820Z","url":"/me"}
+{"level":"info","message":"Response sent","method":"GET","responseTime":"6ms","statusCode":200,"timestamp":"2025-09-24T19:33:52.822Z","url":"/"}
+{"ip":"::1","level":"info","message":"Request received","method":"GET","timestamp":"2025-09-24T19:33:52.824Z","url":"/users/me","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"Request received","method":"GET","timestamp":"2025-09-24T19:33:52.826Z","url":"/cards","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"}
+{"level":"info","message":"Response sent","method":"GET","responseTime":"4ms","statusCode":200,"timestamp":"2025-09-24T19:33:52.828Z","url":"/me"}
+{"level":"info","message":"Response sent","method":"GET","responseTime":"4ms","statusCode":200,"timestamp":"2025-09-24T19:33:52.830Z","url":"/"}
+{"level":"info","message":"Servidor corriendo en http://localhost:3000","timestamp":"2025-09-24T19:41:30.559Z"}
+{"level":"info","message":"Conexión exitosa a MongoDB","timestamp":"2025-09-24T19:41:30.575Z"}
+{"ip":"::1","level":"info","message":"Request received","method":"POST","timestamp":"2025-09-24T19:41:48.979Z","url":"/signin","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"}
+{"level":"info","message":"Response sent","method":"POST","responseTime":"82ms","statusCode":200,"timestamp":"2025-09-24T19:41:49.062Z","url":"/signin"}
+{"ip":"::1","level":"info","message":"Request received","method":"GET","timestamp":"2025-09-24T19:41:49.082Z","url":"/users/me","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"Request received","method":"GET","timestamp":"2025-09-24T19:41:49.086Z","url":"/cards","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"}
+{"level":"info","message":"Response sent","method":"GET","responseTime":"9ms","statusCode":200,"timestamp":"2025-09-24T19:41:49.091Z","url":"/me"}
+{"level":"info","message":"Response sent","method":"GET","responseTime":"7ms","statusCode":200,"timestamp":"2025-09-24T19:41:49.094Z","url":"/"}
+{"ip":"::1","level":"info","message":"Request received","method":"GET","timestamp":"2025-09-24T19:41:49.095Z","url":"/users/me","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"}
+{"level":"info","message":"Response sent","method":"GET","responseTime":"3ms","statusCode":200,"timestamp":"2025-09-24T19:41:49.098Z","url":"/me"}
+{"ip":"::1","level":"info","message":"Request received","method":"GET","timestamp":"2025-09-24T19:41:49.099Z","url":"/cards","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"}
+{"level":"info","message":"Response sent","method":"GET","responseTime":"3ms","statusCode":200,"timestamp":"2025-09-24T19:41:49.102Z","url":"/"}
+{"level":"info","message":"Servidor corriendo en http://localhost:3000","timestamp":"2025-09-24T19:45:59.993Z"}
+{"level":"info","message":"Conexión exitosa a MongoDB","timestamp":"2025-09-24T19:46:00.010Z"}
+{"ip":"::1","level":"info","message":"Request received","method":"POST","timestamp":"2025-09-24T19:46:14.406Z","url":"/signin","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"}
+{"level":"info","message":"Response sent","method":"POST","responseTime":"83ms","statusCode":200,"timestamp":"2025-09-24T19:46:14.490Z","url":"/signin"}
+{"ip":"::1","level":"info","message":"Request received","method":"GET","timestamp":"2025-09-24T19:46:14.508Z","url":"/users/me","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"Request received","method":"GET","timestamp":"2025-09-24T19:46:14.513Z","url":"/cards","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"}
+{"level":"info","message":"Response sent","method":"GET","responseTime":"8ms","statusCode":200,"timestamp":"2025-09-24T19:46:14.517Z","url":"/me"}
+{"level":"info","message":"Response sent","method":"GET","responseTime":"7ms","statusCode":200,"timestamp":"2025-09-24T19:46:14.520Z","url":"/"}
+{"ip":"::1","level":"info","message":"Request received","method":"GET","timestamp":"2025-09-24T19:46:14.521Z","url":"/users/me","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"Request received","method":"GET","timestamp":"2025-09-24T19:46:14.524Z","url":"/cards","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"}
+{"level":"info","message":"Response sent","method":"GET","responseTime":"5ms","statusCode":200,"timestamp":"2025-09-24T19:46:14.527Z","url":"/me"}
+{"level":"info","message":"Response sent","method":"GET","responseTime":"5ms","statusCode":200,"timestamp":"2025-09-24T19:46:14.529Z","url":"/"}
+{"level":"info","message":"Servidor corriendo en http://localhost:3000","timestamp":"2025-09-24T19:49:57.805Z"}
+{"level":"info","message":"Conexión exitosa a MongoDB","timestamp":"2025-09-24T19:49:57.820Z"}
+{"ip":"::1","level":"info","message":"Request received","method":"POST","timestamp":"2025-09-24T19:50:11.922Z","url":"/signin","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"}
+{"level":"info","message":"Response sent","method":"POST","responseTime":"82ms","statusCode":200,"timestamp":"2025-09-24T19:50:12.005Z","url":"/signin"}
+{"ip":"::1","level":"info","message":"Request received","method":"GET","timestamp":"2025-09-24T19:50:12.027Z","url":"/users/me","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"Request received","method":"GET","timestamp":"2025-09-24T19:50:12.031Z","url":"/cards","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"}
+{"level":"info","message":"Response sent","method":"GET","responseTime":"9ms","statusCode":200,"timestamp":"2025-09-24T19:50:12.036Z","url":"/me"}
+{"level":"info","message":"Response sent","method":"GET","responseTime":"7ms","statusCode":200,"timestamp":"2025-09-24T19:50:12.039Z","url":"/"}
+{"ip":"::1","level":"info","message":"Request received","method":"GET","timestamp":"2025-09-24T19:50:12.040Z","url":"/users/me","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"}
+{"level":"info","message":"Response sent","method":"GET","responseTime":"3ms","statusCode":200,"timestamp":"2025-09-24T19:50:12.043Z","url":"/me"}
+{"ip":"::1","level":"info","message":"Request received","method":"GET","timestamp":"2025-09-24T19:50:12.044Z","url":"/cards","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"}
+{"level":"info","message":"Response sent","method":"GET","responseTime":"3ms","statusCode":200,"timestamp":"2025-09-24T19:50:12.047Z","url":"/"}
+{"level":"info","message":"Servidor corriendo en http://localhost:3000","timestamp":"2025-09-24T19:58:59.294Z"}
+{"level":"info","message":"Conexión exitosa a MongoDB","timestamp":"2025-09-24T19:58:59.310Z"}
+{"ip":"::1","level":"info","message":"Request received","method":"POST","timestamp":"2025-09-24T19:59:13.749Z","url":"/signin","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"}
+{"level":"info","message":"Response sent","method":"POST","responseTime":"86ms","statusCode":200,"timestamp":"2025-09-24T19:59:13.836Z","url":"/signin"}
+{"ip":"::1","level":"info","message":"Request received","method":"GET","timestamp":"2025-09-24T19:59:13.854Z","url":"/users/me","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"Request received","method":"GET","timestamp":"2025-09-24T19:59:13.858Z","url":"/cards","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"}
+{"level":"info","message":"Response sent","method":"GET","responseTime":"9ms","statusCode":200,"timestamp":"2025-09-24T19:59:13.863Z","url":"/me"}
+{"level":"info","message":"Response sent","method":"GET","responseTime":"7ms","statusCode":200,"timestamp":"2025-09-24T19:59:13.865Z","url":"/"}
+{"ip":"::1","level":"info","message":"Request received","method":"GET","timestamp":"2025-09-24T19:59:13.867Z","url":"/users/me","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"}
+{"level":"info","message":"Response sent","method":"GET","responseTime":"2ms","statusCode":200,"timestamp":"2025-09-24T19:59:13.870Z","url":"/me"}
+{"ip":"::1","level":"info","message":"Request received","method":"GET","timestamp":"2025-09-24T19:59:13.871Z","url":"/cards","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"}
+{"level":"info","message":"Response sent","method":"GET","responseTime":"3ms","statusCode":200,"timestamp":"2025-09-24T19:59:13.874Z","url":"/"}
+{"level":"info","message":"Servidor corriendo en http://localhost:3000","timestamp":"2025-09-24T19:59:38.607Z"}
+{"level":"info","message":"Conexión exitosa a MongoDB","timestamp":"2025-09-24T19:59:38.620Z"}
+{"ip":"::1","level":"info","message":"Request received","method":"POST","timestamp":"2025-09-24T19:59:52.394Z","url":"/signin","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"}
+{"level":"info","message":"Response sent","method":"POST","responseTime":"82ms","statusCode":200,"timestamp":"2025-09-24T19:59:52.477Z","url":"/signin"}
+{"ip":"::1","level":"info","message":"Request received","method":"GET","timestamp":"2025-09-24T19:59:52.496Z","url":"/users/me","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"Request received","method":"GET","timestamp":"2025-09-24T19:59:52.501Z","url":"/cards","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"}
+{"level":"info","message":"Response sent","method":"GET","responseTime":"10ms","statusCode":200,"timestamp":"2025-09-24T19:59:52.506Z","url":"/me"}
+{"level":"info","message":"Response sent","method":"GET","responseTime":"7ms","statusCode":200,"timestamp":"2025-09-24T19:59:52.508Z","url":"/"}
+{"ip":"::1","level":"info","message":"Request received","method":"GET","timestamp":"2025-09-24T19:59:52.510Z","url":"/users/me","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"}
+{"level":"info","message":"Response sent","method":"GET","responseTime":"3ms","statusCode":200,"timestamp":"2025-09-24T19:59:52.513Z","url":"/me"}
+{"ip":"::1","level":"info","message":"Request received","method":"GET","timestamp":"2025-09-24T19:59:52.514Z","url":"/cards","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"}
+{"level":"info","message":"Response sent","method":"GET","responseTime":"3ms","statusCode":200,"timestamp":"2025-09-24T19:59:52.517Z","url":"/"}

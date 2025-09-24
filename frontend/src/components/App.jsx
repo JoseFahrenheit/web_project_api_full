@@ -6,7 +6,6 @@ import Main from './Main/Main.jsx';
 import Footer from './Footer/Footer.jsx';
 
 function App({ userEmail, onLogout }) {
-  console.log('App - userEmail recibido:', userEmail);
 
   const [currentUser, setCurrentUser] = useState(null);
   const [activePopup, setActivePopup] = useState(null);

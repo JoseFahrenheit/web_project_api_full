@@ -26,7 +26,7 @@ export default function Popup({ isOpen, onClose, title, children, name }) {
           aria-label="Cerrar"
           onClick={onClose}
         />
-        {title && <h2 className="popup__title">{title}</h2>} {/* Cambiado h3 por h2 */}
+        {title && <h2 className="popup__title">{title}</h2>}
         {children}
       </div>
     </div>

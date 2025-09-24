@@ -28,7 +28,6 @@ function Main() {
           setLoggedIn(true);
           const email = userData.email || '';
           setUserEmail(email);
-          console.log('Email obtenido del token:', email);
         })
         .catch((error) => {
           console.error('Token verification failed:', error);
@@ -50,7 +49,6 @@ function Main() {
         setLoggedIn(true);
         const email = data.data?.email || data.email || loginData.email;
         setUserEmail(email);
-        console.log('Email después de login:', email);
         return data;
       })
       .catch((error) => {
@@ -77,7 +75,6 @@ function Main() {
         setLoggedIn(true);
         const email = data.data?.email || data.email || registerData.email;
         setUserEmail(email);
-        console.log('Email después de registro:', email);
         return data;
       })
       .catch((error) => {

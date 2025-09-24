@@ -3,8 +3,6 @@ import logo from '../../images/Vector.png';
 import './Header.css';
 
 function Header({ userEmail, onLogout }) {
-  console.log('Header - userEmail:', userEmail);
-  console.log('Header - tipo de userEmail:', typeof userEmail);
 
   return (
     <header className="header">

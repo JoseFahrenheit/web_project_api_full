@@ -27,10 +27,10 @@ mongoose.connect('mongodb://localhost:27017/aroundb', {
   useUnifiedTopology: true,
 })
   .then(() => {
-    console.log('Conexion exitosa a MongoDB');
+    logger.info('Conexión exitosa a MongoDB');
   })
   .catch((err) => {
-    console.error('Error al conectar a MongoDB', err);
+    logger.error('Error al conectar a MongoDB', { error: err.message });
   });
 
 app.use(express.static(path.join(__dirname, '../frontend/dist')));
@@ -57,5 +57,5 @@ app.use(errors());
 app.use(errorHandler);
 
 app.listen(PORT, () => {
-  console.log(`Servidor corriendo en http://localhost:${PORT}`);
+  logger.info(`Servidor corriendo en http://localhost:${PORT}`);
 });
